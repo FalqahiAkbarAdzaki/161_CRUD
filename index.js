@@ -72,7 +72,7 @@ app.put('/api/mahasiswa/:id', (req, res) => {
             }
             res.json({ message: "user updated successfully" });
         }
-    ):
+    );
 });
 
 app.delete('/api/mahasiswa/:id', (req, res) => {
